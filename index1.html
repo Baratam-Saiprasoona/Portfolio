@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saiprasoona | Portfolio</title>
+  <link rel="stylesheet" href="styles1.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/elegant-icons/1.0.1/style.css">
+<!-- AOS Animation -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>AOS.init();</script>
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo">Prasoona</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+
+  <!-- Home Section (Hero Section) -->
+  <section id="home" class="hero">
+    <div class="particles" id="particles-js"></div>
+    <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+      <h1>Hello, I’m <span class="highlight" id="typing-effect">Saiprasoona</span></h1>
+      <p class="tagline">Aspiring Software Engineer | AI & ML Enthusiast | Web Developer</p>
+      <a href="#portfolio" class="cta-button">More About Me</a>
+    </div>
+    <div class="hero-scroll">
+      <a href="#about" class="scroll-down">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2 class="section-title" data-aos="fade-up">About Me</h2>
+    <div class="about-content">
+      <div class="about-image" data-aos="fade-right" data-aos-duration="1000">
+        <img src="Image.jpg" alt="Saiprasoona's Image" class="profile-pic">
+      </div>
+      <div class="about-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+        <p>Hello! I'm a Computer Science student at Gayatri Vidya Parishad College of Engineering. I enjoy working on creative tech projects that test my logic and skills.</p>
+        <p>I'm aiming to become a Full Stack Developer, with hands-on experience in the MERN stack, C++, and Data Structures & Algorithms. I'm also exploring how Machine Learning can improve user interactions in web apps.</p>
+        <p>I love building clean, responsive interfaces and writing efficient code. I'm always learning something new—be it a framework, tool, or tech trend in web development and ML.</p>
+        <p>I’m open to internships, freelance gigs, and team projects that challenge me and help me grow as a developer.</p>
+  
+        <div class="about-details">
+          <div class="detail">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Based in Visakhapatnam, India</span>
+          </div>
+          <div class="detail">
+            <i class="fas fa-briefcase"></i>
+            <span>Available for internships, freelancing & collaborations</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- Education Section -->
+  <section id="education" class="section education">
+    <h2 class="section-title" data-aos="fade-up">Education</h2>
+    <div class="education-item" data-aos="fade-up">
+      <h3>Gayatri Vidya Parishad College of Engineering</h3>
+      <p><strong>B.Tech in Computer Science and Engineering</strong> (2022 - 2026) | Cum. GPA: 9.4/10.0</p>
+    </div>
+    <div class="education-item" data-aos="fade-up">
+      <h3>Sri Chaitanya Vidyaniketan</h3>
+      <p><strong>Intermediate (CBSE)</strong> (2020 - 2022) | Marks: 453/500 | JEE Mains Percentile: 92.45</p>
+    </div>
+    <div class="education-item" data-aos="fade-up">
+      <h3>Sri Chaitanya Tech School</h3>
+      <p><strong>10th Grade</strong> (2019 - 2020) | Marks: 598/600 | NTSE Score: 155/200</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills">
+    <h2 class="section-title" data-aos="fade-up">Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card" data-aos="fade-up">
+        <h3>Languages</h3>
+        <p>Python, C/C++, Java, HTML, CSS, JavaScript, SQL</p>
+      </div>
+      <div class="skill-card" data-aos="fade-up">
+        <h3>Frameworks & Libraries</h3>
+        <p>Flask, NumPy, Pandas, Matplotlib</p>
+      </div>
+      <div class="skill-card" data-aos="fade-up">
+        <h3>Tools</h3>
+        <p>Git/GitHub, Jupyter Notebook, Visual Studio Code, AWS, Linux, Windows</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="portfolio" class="section portfolio">
+    <h2 class="section-title" data-aos="fade-up">Projects</h2>
+    <div class="project-cards">
+      <div class="project-card" data-aos="fade-up">
+        <h3>Zomato Restaurant App</h3>
+        <p>💡 Created a full-stack application with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> for the front end, and <strong>Python</strong> with <strong>Flask</strong> for the backend, enabling users to explore restaurants by name, location, or cuisine.</p>
+        <p>🧩 Connected to <strong>MongoDB</strong> for efficient data storage and included intelligent filters like <strong>geolocation-based</strong> and <strong>image-driven</strong> search using <strong>Gemini AI</strong> integration.</p>
+        <p>🖥️ Crafted an interactive and clean UI that ensures quick search responses and smooth user interaction throughout the platform.</p>
+      </div>
+      <div class="project-card" data-aos="fade-up">
+        <h3>Fake Reviews Detection</h3>
+        <p>🧠 Designed a tool using <strong>Python</strong> and <strong>NLP</strong> workflows such as tokenization and sentiment filtering to assess product reviews.</p>
+        <p>📌 Trained a <strong>Naïve Bayes</strong> model with <strong>TF-IDF</strong> features to distinguish between fake and genuine feedback with high precision.</p>
+        <p>🌍 Launched a simple <strong>Flask web interface</strong> that provides users with instant results on the credibility of any given review.</p>
+      </div>
+      <div class="project-card" data-aos="fade-up">
+        <h3>AWS Cloud Internship Project</h3>
+        <p>🏫 Revamped the Student Information System for a school, enhancing system performance and making it more accessible through a modern UI.</p>
+        <p>🔧 Applied <strong>Amazon DynamoDB</strong> with <strong>Boto3</strong> to support robust data operations and improve processing speed.</p>
+        <p>📊 Improved the system’s adaptability and resource efficiency, resulting in minimal upkeep and long-term data reliability.</p>
+    
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section --> 
+  <section id="contact" class="section contact">
+    <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+    <p>If you'd like to connect, collaborate, or just have a chat, feel free to reach out!</p>
+    <div class="contact-form">
+      <form>
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="text" name="subject" placeholder="Subject" required>
+        <textarea name="message" placeholder="Message" rows="5" required></textarea>
+        <button type="submit" class="submitform">SUBMIT</button>
+      </form>
+    </div>
+    
+    <div class="row contact-info">
+
+      <div class="col-four tab-full">
+          <div class="icon">
+              <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <h5>Where to find me</h5>
+          <p>Visakhapatnam, Andhra Pradesh<br>530048 India</p>
+      </div>
+  
+      <div class="col-four tab-full collapse">
+          <div class="icon">
+              <i class="fas fa-envelope"></i>
+          </div>
+          <h5>Email Me At</h5>
+          <p>
+            baratamsaiprasoona@gmail.com
+          </p>
+      </div>
+  
+      <div class="col-four tab-full">
+          <div class="icon">
+              <i class="fas fa-phone-alt"></i>
+          </div>
+          <h5>Call Me At</h5>
+          <p>Phone: +91 7013782922</p>
+      </div>
+  
+  </div>
+
+  </section>
+
+  <footer>
+    <p>© 2025 Saiprasoona Baratam • Crafted with 💙</p>
+    <div class="social-links">
+      <a href="https://github.com/Baratam-Saiprasoona" target="_blank">
+        <i class="fab fa-github"></i> 
+      </a>
+      <a href="https://www.linkedin.com/in/baratam-saiprasoona" target="_blank">
+        <i class="fab fa-linkedin"></i> 
+      </a>
+      <a href="https://leetcode.com/u/saiprasoona" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" style="width: 25px; vertical-align: middle; ">
+      </a>
+      <a href="https://www.codechef.com/users/saiprasoona24" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/codechef.png" alt="CodeChef" style="width: 20px; vertical-align: middle; ">
+      </a>
+    </div>
+  </footer>
+
+  <!-- JS for AOS and Particles -->
+  <script>
+    // Initialize AOS (Animation On Scroll)
+    AOS.init();
+
+    // Initialize Particles.js
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 80,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#ffffff"
+          }
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 1,
+            "opacity_min": 0.1
+          }
+        },
+        "size": {
+          "value": 5,
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 2,
+            "size_min": 0.1
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 3,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 600
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "repulse"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        }
+      }
+    });
+
+    const texts = ["Saiprasoona"];
+    let count = 0;
+    let index = 0;
+    let currentText = "";
+    let letter = "";
+      
+    (function type() {
+        if (count === texts.length) {
+            count = 0;
+        }
+        currentText = texts[count];
+        letter = currentText.slice(0, ++index);
+      
+        document.getElementById("typing-effect").textContent = letter;
+        if (letter.length === currentText.length) {
+            count++;
+            index = 0;
+            setTimeout(type, 1200); // wait before typing next word
+        } else {
+            setTimeout(type, 100);
+        }
+    })();
+    
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("navLinks");
+
+    hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  }); 
+  
+    type();
+    
+  </script>
+
+</body>
+
+</html>
